@@ -1,4 +1,4 @@
-#  **Python GoogleMaps API**
+#  **Weather Analysis Using Python and GoogleMaps API**
 
 **Weather Analysis:** Created a dataset of 500+ random cities using OpenWeatherMap API to analyze weather patterns as a function of equatorial distance.  
 **Vacation Analysis:** Filtered cities based on weather variables and used GoogleMaps API to find ideal vacation spots. 
