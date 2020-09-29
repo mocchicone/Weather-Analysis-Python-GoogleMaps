@@ -1,18 +1,19 @@
 #  **Weather Analysis Using Python and GoogleMaps API**
 
 **Weather Analysis:** Created a dataset of 500+ random cities using OpenWeatherMap API to analyze weather patterns as a function of equatorial distance.  
+
 **Vacation Analysis:** Filtered cities based on weather variables and used GoogleMaps API to find ideal vacation spots. 
 
-Data Analysis, linear regression and visualizations conducted using Python, Pandas, Citipy, Plotly, and Matplotlib.
+Data Analysis, linear regression and visualizations conducted using Python, Pandas, Citipy, Plotly, Gmaps, and Matplotlib.
 
-<project visuals>
+![Weather Analysis](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/heatmap_2.png)
 
 ## **Weather Analysis**
 
 ### **Step 1:**
 Used Python, Numpy, and Citipy to generate a list of 500+ cities based on random latitude and longitude coordinates.  
 
-<city list>
+![Weather Analysis](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/heatmap_2.png)
   
 ### **Step 2:**
 Made an API call (get request) on 7/12/2020 to OpenWeatherMap to grab weather data for each of the cities which was then converted into a pandas dataframe.
@@ -20,7 +21,7 @@ Made an API call (get request) on 7/12/2020 to OpenWeatherMap to grab weather da
 <OpenWeatherAPI>
   
 ### **Step 3:**
-
+Used Matplotlib to conduct simple linear regression analysis on the input variable (latitude) and our four dependent variables (Max Temperature, Humidity, Cloudiness, Wind Speed) accross two groups (Northern Hemispher and Southern Hemispher).  
 
 <Linear Regression>
   
@@ -30,4 +31,30 @@ Made an API call (get request) on 7/12/2020 to OpenWeatherMap to grab weather da
 
 2. Latitude is not a significant preditor of Humidity, Cloudiness, or Wind Speed
 
-3. It would be interesting to run the same numbers or these variables in the winter to see if time of year impacts the strength of the relationships between the variables.
+3. As the weather data was pull in July, additional analysis could be conducted by using the same list of cities and calling the API during the winter to see if time of year impacts the strength of the relationships between the variables.
+
+## **Ideal Vacation Location**
+
+Based on my ideal weather conditions for a nice vacation, I created a heatmap using Gmap, filtered the data down to five cities, and used the Google Maps API to locate the nearest lodging and added them to the heatmap as a marker layer.  
+
+<Final Image>
+
+### **Step 4:**
+Used Gmaps, Python, and Pandas to create a heatmap of the 500+ cities based on humidity.
+
+<Heatmap>
+
+### **Step 5:**
+Filtered the cities dataset by ideal conditions for Wind Speed, Humidity, Cloudiness, and Max Temperature resulting in a list of five cities.
+
+<filtered cities>
+  
+### **Step 6:**
+Used a googleAPI get request to locate one lodging within each of the five cities. Appending the lodging as a marker onto the heatmap.
+
+<final map>
+  
+
+
+
+
