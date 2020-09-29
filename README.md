@@ -38,7 +38,7 @@ Used Matplotlib to conduct simple linear regression analysis on the input variab
 
 ## **Ideal Vacation Location**
 
-Based on my ideal weather conditions for a nice vacation, I created a heatmap using Gmap, filtered the data down to five cities, and used the Google Maps API to locate the nearest lodging and added them to the heatmap as a marker layer.  
+Based on my ideal weather conditions for a pleasant vacation, I created a heatmap using Gmap, filtered the data down to five cities, and used the Google Maps API to locate the nearest lodging and added them to the heatmap as a marker layer.  
 
 ### **Step 4:**
 Used Gmaps, Python, and Pandas to create a heatmap of the 500+ cities based on humidity.
