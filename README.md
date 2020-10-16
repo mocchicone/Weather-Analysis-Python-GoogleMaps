@@ -26,7 +26,7 @@ Used Matplotlib to conduct simple linear regression analysis on the input variab
   
 ### Weather Observations:
 
-1. There is a significant correlation between latitude and Max Temp as run on July 12, 2020, so that the further away from the equator, the warmer the max temperature.  The effect size is stronger in the southern hemisphere (r2 = .65), than in the northern (r2 = .44)
+1. There is a significant correlation between latitude and Max Temp as run on July 12, 2020, so that the further away from the equator, the warmer the max temperature.  The effect size is stronger in the southern hemisphere (r2 = .65), than in the northern (R2 = .44)
 
 2. Latitude is not a significant preditor of Humidity, Cloudiness, or Wind Speed
 
