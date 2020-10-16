@@ -42,10 +42,10 @@ Used Gmaps, Python, and Pandas to create a heatmap of the 500+ cities based on h
 ![Heatmap](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/heatmap_1.png)
 
 ### **Step 5:**
-Filtered the cities dataset by ideal conditions for Wind Speed, Humidity, Cloudiness, and Max Temperature resulting in a list of five cities.
+Filtered the cities dataset by ideal conditions for wind speed, humidity, cloudiness, and max daily temperature resulting in a list of five cities.
   
 ### **Step 6:**
-Used a googleAPI get request to locate one lodging within each of the five cities. Appending the lodging as a marker onto the heatmap.
+Used a GoogleAPI get request to locate one lodging within each of the five cities. Appended the lodging as a marker onto the heatmap.
 
 ![Heatmap Markers](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/heatmap_2.png)
   
