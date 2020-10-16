@@ -2,7 +2,7 @@
 
 **Weather Analysis:** Created a dataset of 500+ random cities using OpenWeatherMap API to analyze weather patterns as a function of equatorial distance.  
 
-**Vacation Analysis:** Filtered cities based on weather variables and used GoogleMaps API to find ideal vacation spots. 
+**Vacation Analysis:** Filtered cities based on weather variables and used GoogleMaps API to find and map my ideal vacation spots. 
 
 Data Analysis, linear regression and visualizations conducted using Python, Pandas, Citipy, Plotly, Gmaps, and Matplotlib.
 
@@ -43,8 +43,6 @@ Used Gmaps, Python, and Pandas to create a heatmap of the 500+ cities based on h
 
 ### **Step 5:**
 Filtered the cities dataset by ideal conditions for Wind Speed, Humidity, Cloudiness, and Max Temperature resulting in a list of five cities.
-
-![Filtered Cities](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/filtered_cities.PNG)
   
 ### **Step 6:**
 Used a googleAPI get request to locate one lodging within each of the five cities. Appending the lodging as a marker onto the heatmap.
