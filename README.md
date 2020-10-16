@@ -19,7 +19,8 @@ Made an API call (get request) on 7/12/2020 to OpenWeatherMap to grab weather da
 ### **Step 3:**
 Used Matplotlib to conduct simple linear regression analysis on the input variable (latitude) and our four dependent variables (Max Temperature, Humidity, Cloudiness, Wind Speed) accross two groups (Northern Hemisphere and Southern Hemisphere).  
 
-![Scatter1](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/scatter_lat_temp.png)![Regression1](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/regnh_lat_temp.png)
+![Scatter1](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/scatter_lat_temp.png)
+![Regression1](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/regnh_lat_temp.png)
 ![Regression2](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/regnh_lat_hum.png)
 ![Regression3](https://github.com/mocchicone/Weather-Analysis-Python-GoogleMaps/blob/master/Images/regsh_lat_temp.png)
   
